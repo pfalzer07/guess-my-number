@@ -34,7 +34,7 @@ document.querySelector('.check').addEventListener('click', function () {
       displayMessage(guess > secretNumber ? 'Too high!' : 'Too low!');
       document.querySelector('.score').textContent = score;
     } else {
-      displayMessage('Game Over');
+      displayMessage('Game Over!');
       document.querySelector('.score').textContent = 0;
     }
   }
